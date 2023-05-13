@@ -1,0 +1,9 @@
+name: Repository information
+on: workflow_dispatch
+jobs:
+  info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get repository information
+        run: echo "${{ toJSON(github) }}"
+  
