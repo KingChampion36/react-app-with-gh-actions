@@ -1,6 +1,6 @@
 # react-app-with-gh-actions
 
-This repository shows the example of github actions workflow for deploying react app. Since, we don't have a deployment server, we are only printing the output.
+This repository shows the example of github actions workflow for deploying react app. Since, we don't have a deployment server, we are only printing the output at deployment step in `deploy` job.
 
 ```yaml
 name: Deploy
